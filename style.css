@@ -11,10 +11,11 @@ body {
 }
 
 .banner {
-    max-width: 1920px;
+    width: 1920px;
     height: 850px;
     background: rgba(229, 84, 115, 0.1);
     display: flex;
+    margin: 0 auto;
 }
 
 .banner-text {
@@ -58,7 +59,8 @@ body {
     background: rgb(229, 84, 115);
     color: white;
 }
-.banner-img{
+
+.banner-img {
     display: flex;
     justify-content: flex-end;
     margin-top: 50px;
@@ -66,3 +68,95 @@ body {
 }
 
 /* Featured section */
+
+.featured {
+    width: 1440px;
+    margin: 0 auto;
+    margin-top: 178px;
+}
+
+.featured-text {
+    width: 594px;
+    margin: 0 auto;
+}
+
+.featured-text h3 {
+    color: rgb(39, 39, 39);
+    font-family: Lato;
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 48px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+.featured-text p {
+    color: rgba(39, 39, 39, 0.6);
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom: 48px;
+}
+
+.featured-items {
+    width: 1440px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+
+}
+
+.featured-item {
+    width: 464px;
+    height: 538px;
+    border-radius: 300px 300px 0px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#one {
+    margin-top: 110px;
+}
+
+#two {
+    margin-top: 50px;
+}
+
+#three {
+    margin-top: 66px;
+}
+
+.featured-items > :nth-child(1){
+background: rgba(167, 33, 98, 0.15);
+}
+.featured-items > :nth-child(2){
+    background: rgba(5, 151, 160, 0.15);
+}
+.featured-items > :nth-child(3){
+    background: rgba(71, 125, 17, 0.15);
+}
+.name {
+    width: 1440px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    gap: 55px;
+    margin-top: 32px;
+}
+
+.name h4 {
+    color: rgb(39, 39, 39);
+    font-family: Lato;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 35px;
+    letter-spacing: 0%;
+    text-align: center;
+    text-decoration-line: underline;
+}
