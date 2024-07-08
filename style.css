@@ -259,3 +259,47 @@ body {
     margin-top: 50px;
     margin-right: 429px;
 }
+
+/* instagram */
+
+
+.instagram {
+    width: 1440px;
+    margin: 0 auto;
+    margin-top: 128px;
+}
+
+.instagram-text {
+    width: 594px;
+    margin: 0 auto;
+}
+
+.instagram-text h3 {
+    color: rgb(39, 39, 39);
+    font-family: Lato;
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 48px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+.instagram-text p {
+    color: rgba(39, 39, 39, 0.6);
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom: 48px;
+}
+
+.instagram-items {
+    width: 1440px;
+    display: flex;
+    gap: 24px;
+    align-items: center;
+    margin: 0 auto;
+}
