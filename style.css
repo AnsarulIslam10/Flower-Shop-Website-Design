@@ -20,9 +20,6 @@ body {
 
 .banner-text {
     width: 708px;
-    /* display: flex;
-    flex-direction: column;
-    justify-content: center; */
     margin: auto;
     margin-left: 240px;
 }
@@ -58,8 +55,12 @@ body {
     border-radius: 8px;
     background: rgb(229, 84, 115);
     color: white;
+    transition: all 0.4s ease;
+    cursor: pointer;
 }
-
+.hover:hover{
+    background:  rgb(226, 50, 88);
+}
 .banner-img {
     display: flex;
     justify-content: flex-end;
@@ -245,7 +246,7 @@ body {
     text-align: center;
 }
 
-.deal-text .button .btn {
+.button .btn {
     display: inline;
     align-items: center;
     padding: 20px 43px 20px 43px;
@@ -253,8 +254,11 @@ body {
     border-radius: 8px;
     background: rgb(229, 84, 115);
     color: white;
+    transition: all 0.4s ease;
 }
-
+.hover:hover{
+    background:  rgb(226, 50, 88);
+}
 .deal-img img {
     margin-top: 50px;
     margin-right: 429px;
@@ -370,8 +374,12 @@ body {
     font-size: 20px;
     font-weight: 500;
     color: #FFFFFF;
+    transition: all 0.4s ease;
+    cursor: pointer;
 }
-
+.sub-box button:hover{
+    background:  rgb(226, 50, 88);
+}
 /* footer */
 .footer {
     width: 1922px;
