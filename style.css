@@ -303,3 +303,70 @@ body {
     align-items: center;
     margin: 0 auto;
 }
+
+/* subscribe */
+.subscribe {
+    width: 1440px;
+    height: 449px;
+    background-image: url(asset/Rectangle\ 9.png);
+    margin: 0 auto;
+    margin-top: 128px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sub-text {
+    text-align: center;
+}
+
+.sub-text h2 {
+    color: rgb(39, 39, 39);
+    font-family: Lato;
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 48px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom: 16px;
+}
+
+.sub-text p {
+    color: rgba(39, 39, 39, 0.6);
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom: 48px;
+}
+
+.sub-box {
+    text-align: center;
+    display: flex;
+    gap: 16px;
+}
+
+.sub-box input {
+    width: 700px;
+    height: 64px;
+    border: none;
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+    font-size: 18px;
+    padding-left: 22px;
+    color: rgba(7, 2, 17, 0.6);
+}
+
+.sub-box button {
+    width: 150px;
+    height: 64px; 
+    border: none;
+    border-radius: 8px;
+    background: rgb(229, 84, 115);
+    font-size: 20px;
+    font-weight: 500;
+    color: #FFFFFF;
+}
