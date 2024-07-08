@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Lato", sans-serif;
+}
+
+.banner {
+    max-width: 1920px;
+    height: 850px;
+    background: rgba(229, 84, 115, 0.1);
+    display: flex;
+}
+
+.banner-text {
+    width: 708px;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center; */
+    margin: auto;
+    margin-left: 240px;
+}
+
+.banner-text h2 {
+    color: rgb(39, 39, 39);
+    font-family: Lato;
+    font-size: 80px;
+    font-weight: 800;
+    line-height: 96px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 32px;
+}
+
+.banner-text p {
+    color: rgba(39, 39, 39, 0.6);
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 32px;
+}
+
+.btn {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    padding: 20px 43px 20px 43px;
+    border: none;
+    border-radius: 8px;
+    background: rgb(229, 84, 115);
+    color: white;
+}
+.banner-img{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 50px;
+    margin-right: 240px;
+}
+
+/* Featured section */
